@@ -15,7 +15,7 @@ def transform_ac(img, times_shuffled=1, p=1,q=1):                               
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
-img = cv.imread('/home/aditya/Desktop/res_img/lena/lena.png',0)
+img = cv.imread('lena.png',0) #read image converted to grayscale
 shuffled_img = transform_ac(img)
 print shuffled_img
 plt.imshow(shuffled_img)
